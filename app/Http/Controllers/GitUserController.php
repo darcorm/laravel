@@ -35,7 +35,7 @@ class GitUserController extends Controller
      */
     public function show()
     {
-        return GitUser::all() ?? "No records found";
+        return GitUser::all();
     }
 
     /**
